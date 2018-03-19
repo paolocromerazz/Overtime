@@ -4,7 +4,7 @@ let hoursWorked=0;
 
 window.onload = function() {
     var a = document.getElementById("load");
-    a.onclick = readTextFile("fullstackPeople.json", function(text){
+    a.onclick = readTextFile("../fullstackPeople.json", function(text){
         var data = JSON.parse(text);
         console.log(data);
     });
