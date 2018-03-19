@@ -6,6 +6,7 @@ window.onload = function() {
     var a = document.getElementById("load");
     a.onclick = readTextFile("../fullstackPeople.json", function(text){
         var data = JSON.parse(text);
+        alert(data);
         console.log(data);
     });
   }
