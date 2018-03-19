@@ -4,7 +4,10 @@ let hoursWorked=0;
 
 window.onload = function() {
     var a = document.getElementById("load");
-    a.onclick = readTextFile();
+    a.onclick = readTextFile("fullstackPeople.json", function(text){
+        var data = JSON.parse(text);
+        console.log(data);
+    });
   }
 
 function readTextFile(file, callback) {
@@ -20,7 +23,7 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("fullstackPeople.json", function(text){
-    var data = JSON.parse(text);
-    console.log(data);
-});
+// readTextFile("fullstackPeople.json", function(text){
+//     var data = JSON.parse(text);
+//     console.log(data);
+// });
