@@ -3,9 +3,10 @@ let overtimeRate=0;
 let hoursWorked=0;
 
 window.onload = function() {
-    alert("ciao");
+    
     var a = document.getElementById("load");
     a.onclick = readTextFile("../fullstackPeople.json", function(text){
+        alert("ciao");
         var data = JSON.parse(text);
         alert(data);
         console.log(data);
