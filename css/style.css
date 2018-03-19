@@ -1,0 +1,31 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(132, 147, 111);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2D173F;
+}
+h1,h2,h3,h4,hr {
+    padding: 10px;
+    margin: 0;
+    border-width: 0px;
+    text-align: center;
+    color: #2D173F;
+}
+.logo {
+    text-align: center;
+}
+.navbar {
+    padding:0px;
+    margin:0px;
+    min-height: 96px;
+}
+.nav-link > a {
+    color: #2D173F;
+}
+
+.dropdown-menu {
+    background-color: rgba(138, 158, 109, 0.8);
+}

@@ -1,0 +1,35 @@
+{
+    "Rules":[
+        {
+            "payRate": 30,
+            "overtimeRate": 10,
+            "notUsed": 0
+        }
+    ],
+    "Employees": [{
+            "userId": "Marco",
+            "comment": "learner",
+            "hoursWorked": 50
+        },
+        {
+            "userId": "Nikky",
+            "comment": "best teacher",
+            "hoursWorked": 70
+        },
+        {
+            "userId": "Ron",
+            "comment": "not seen yet :-)",
+            "hoursWorked": 40
+        },
+        {
+            "userId": "Tilor aka Digital Empress",
+            "comment": "adv learner",
+            "hoursWorked": 60
+        },
+        {
+            "userId": "Marco Manunta",
+            "comment": "learner",
+            "hoursWorked": 50
+        }
+    ]
+}
