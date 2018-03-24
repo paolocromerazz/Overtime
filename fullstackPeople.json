@@ -1,6 +1,7 @@
 {
     "Rules":[
         {
+            "due": 40,
             "payRate": 30,
             "overtimeRate": 10,
             "notUsed": 0
@@ -22,7 +23,7 @@
             "hoursWorked": 40
         },
         {
-            "userId": "Tilor aka Digital Empress",
+            "userId": "Tailor aka Digital Empress",
             "comment": "adv learner",
             "hoursWorked": 60
         },

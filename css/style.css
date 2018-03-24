@@ -2,17 +2,20 @@
 * {
     padding: 0px;
     margin: 0px;
-    background-color: rgb(132, 147, 111);
+    background-color: rgb(132, 147, 130);
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 21px;
     color: #2D173F;
 }
-h1,h2,h3,h4,hr {
+h1,h2,hr {
     padding: 10px;
     margin: 0;
     border-width: 0px;
     text-align: center;
     color: #2D173F;
+}
+h2 {
+    font-size: 24px;
 }
 .logo {
     text-align: center;
@@ -20,12 +23,17 @@ h1,h2,h3,h4,hr {
 .navbar {
     padding:0px;
     margin:0px;
-    min-height: 96px;
 }
 .nav-link > a {
     color: #2D173F;
 }
 
 .dropdown-menu {
-    background-color: rgba(138, 158, 109, 0.8);
+    background-color: rgba(130, 150, 120, 0.8);
+}
+ 
+.tabclass,tab {
+    text-align: left;
+    align-content: center;
+    border-bottom: 10px;
 }

@@ -1,0 +1,21 @@
+{
+    "Rules":[
+        {
+            "due": 40,
+            "payRate": 30,
+            "overtimeRate": 10,
+            "notUsed": 0
+        }
+    ],
+    "Employees": [{
+            "userId": "John",
+            "comment": "veteran",
+            "hoursWorked": 42
+        },
+        {
+            "userId": "Alex",
+            "comment": "noob",
+            "hoursWorked": 10
+        }
+    ]
+}
